@@ -1,0 +1,9 @@
+f = open('C:\\Python27\\test.txt', "w+")
+message = "This is my message to the world"
+f.write(message)
+f.close
+f = open('C:\\Python27\\test.txt', "w+")
+text = f.read()
+print text
+f.close
+print "this program has been run"

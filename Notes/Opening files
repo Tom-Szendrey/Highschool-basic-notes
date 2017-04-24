@@ -1,0 +1,5 @@
+f = open('C:\\Python27\\TEST.txt', 'r+')
+text = f.read()
+print (text)
+
+

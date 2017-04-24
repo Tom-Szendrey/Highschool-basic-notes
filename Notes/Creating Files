@@ -1,0 +1,6 @@
+f = open('C:\\Python27\\TEST.txt', 'r+')
+f.write('hello World')
+text = f.read()
+print(text)
+print "Btw it should said hello world"
+f.close
